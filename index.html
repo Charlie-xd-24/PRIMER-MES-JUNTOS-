@@ -24,18 +24,24 @@
 
         /* Contenedor Flotante */
         .contenedor {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 15px 35px rgba(225, 0, 100, 0.15);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.6);
-            max-width: 90%;
-            width: 460px;
-            z-index: 10;
-            animation: flotarContenedor 4s ease-in-out infinite;
-        }
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(225, 0, 100, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    max-width: 90%;
+    width: 460px;
+    z-index: 10;
+    animation: flotarContenedor 4s ease-in-out infinite;
+
+    /* Imagen de fondo */
+    background-image: url('https://photos.google.com/photo/AF1QipMc_ZBVJf3v-xB7sVqycMOpi7xfuLdBCVL2X8kV');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
         @keyframes flotarContenedor {
             0%, 100% { transform: translateY(0); }
